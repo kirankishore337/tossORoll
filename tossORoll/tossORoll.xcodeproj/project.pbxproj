@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99DBB6AB22CF085F009BB409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DBB6AA22CF085F009BB409 /* AppDelegate.swift */; };
+		99DBB6AD22CF085F009BB409 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DBB6AC22CF085F009BB409 /* ViewController.swift */; };
+		99DBB6B022CF085F009BB409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DBB6AE22CF085F009BB409 /* Main.storyboard */; };
+		99DBB6B222CF0860009BB409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DBB6B122CF0860009BB409 /* Assets.xcassets */; };
+		99DBB6B522CF0860009BB409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DBB6B322CF0860009BB409 /* LaunchScreen.storyboard */; };
+		99DBB6BD22CF0CFE009BB409 /* coinTossViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DBB6BC22CF0CFE009BB409 /* coinTossViewController.swift */; };
+		99DBB6BF22CF0D11009BB409 /* rollDiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DBB6BE22CF0D11009BB409 /* rollDiceViewController.swift */; };
+		99DBB6C222CF0DB9009BB409 /* Coin Flip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99DBB6C122CF0DB9009BB409 /* Coin Flip.mp3 */; };
+		99DBB6C422CF0DF5009BB409 /* Dice Roll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99DBB6C322CF0DF5009BB409 /* Dice Roll.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99DBB6A722CF085F009BB409 /* tossORoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tossORoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DBB6AA22CF085F009BB409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99DBB6AC22CF085F009BB409 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99DBB6AF22CF085F009BB409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99DBB6B122CF0860009BB409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99DBB6B422CF0860009BB409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99DBB6B622CF0860009BB409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99DBB6BC22CF0CFE009BB409 /* coinTossViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coinTossViewController.swift; sourceTree = "<group>"; };
+		99DBB6BE22CF0D11009BB409 /* rollDiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rollDiceViewController.swift; sourceTree = "<group>"; };
+		99DBB6C122CF0DB9009BB409 /* Coin Flip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Coin Flip.mp3"; sourceTree = "<group>"; };
+		99DBB6C322CF0DF5009BB409 /* Dice Roll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dice Roll.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99DBB6A422CF085F009BB409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99DBB69E22CF085F009BB409 = {
+			isa = PBXGroup;
+			children = (
+				99DBB6A922CF085F009BB409 /* tossORoll */,
+				99DBB6A822CF085F009BB409 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99DBB6A822CF085F009BB409 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99DBB6A722CF085F009BB409 /* tossORoll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99DBB6A922CF085F009BB409 /* tossORoll */ = {
+			isa = PBXGroup;
+			children = (
+				99DBB6AA22CF085F009BB409 /* AppDelegate.swift */,
+				99DBB6AC22CF085F009BB409 /* ViewController.swift */,
+				99DBB6AE22CF085F009BB409 /* Main.storyboard */,
+				99DBB6BC22CF0CFE009BB409 /* coinTossViewController.swift */,
+				99DBB6BE22CF0D11009BB409 /* rollDiceViewController.swift */,
+				99DBB6B122CF0860009BB409 /* Assets.xcassets */,
+				99DBB6B322CF0860009BB409 /* LaunchScreen.storyboard */,
+				99DBB6B622CF0860009BB409 /* Info.plist */,
+				99DBB6C022CF0DA1009BB409 /* Sounds */,
+			);
+			path = tossORoll;
+			sourceTree = "<group>";
+		};
+		99DBB6C022CF0DA1009BB409 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				99DBB6C122CF0DB9009BB409 /* Coin Flip.mp3 */,
+				99DBB6C322CF0DF5009BB409 /* Dice Roll.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99DBB6A622CF085F009BB409 /* tossORoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DBB6B922CF0860009BB409 /* Build configuration list for PBXNativeTarget "tossORoll" */;
+			buildPhases = (
+				99DBB6A322CF085F009BB409 /* Sources */,
+				99DBB6A422CF085F009BB409 /* Frameworks */,
+				99DBB6A522CF085F009BB409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tossORoll;
+			productName = tossORoll;
+			productReference = 99DBB6A722CF085F009BB409 /* tossORoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99DBB69F22CF085F009BB409 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Kiran Kishore";
+				TargetAttributes = {
+					99DBB6A622CF085F009BB409 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 99DBB6A222CF085F009BB409 /* Build configuration list for PBXProject "tossORoll" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99DBB69E22CF085F009BB409;
+			productRefGroup = 99DBB6A822CF085F009BB409 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99DBB6A622CF085F009BB409 /* tossORoll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99DBB6A522CF085F009BB409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DBB6B522CF0860009BB409 /* LaunchScreen.storyboard in Resources */,
+				99DBB6B222CF0860009BB409 /* Assets.xcassets in Resources */,
+				99DBB6B022CF085F009BB409 /* Main.storyboard in Resources */,
+				99DBB6C222CF0DB9009BB409 /* Coin Flip.mp3 in Resources */,
+				99DBB6C422CF0DF5009BB409 /* Dice Roll.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99DBB6A322CF085F009BB409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DBB6BF22CF0D11009BB409 /* rollDiceViewController.swift in Sources */,
+				99DBB6AD22CF085F009BB409 /* ViewController.swift in Sources */,
+				99DBB6AB22CF085F009BB409 /* AppDelegate.swift in Sources */,
+				99DBB6BD22CF0CFE009BB409 /* coinTossViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99DBB6AE22CF085F009BB409 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99DBB6AF22CF085F009BB409 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99DBB6B322CF0860009BB409 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99DBB6B422CF0860009BB409 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99DBB6B722CF0860009BB409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99DBB6B822CF0860009BB409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99DBB6BA22CF0860009BB409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9N53T7P53;
+				INFOPLIST_FILE = tossORoll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cdns.tossORoll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99DBB6BB22CF0860009BB409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9N53T7P53;
+				INFOPLIST_FILE = tossORoll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cdns.tossORoll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99DBB6A222CF085F009BB409 /* Build configuration list for PBXProject "tossORoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DBB6B722CF0860009BB409 /* Debug */,
+				99DBB6B822CF0860009BB409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99DBB6B922CF0860009BB409 /* Build configuration list for PBXNativeTarget "tossORoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DBB6BA22CF0860009BB409 /* Debug */,
+				99DBB6BB22CF0860009BB409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99DBB69F22CF085F009BB409 /* Project object */;
+}
